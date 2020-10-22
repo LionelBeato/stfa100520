@@ -1,4 +1,4 @@
-package com.wozu.stfa.fundamentals;
+package com.wozu.stfa.fundamentals.three.monday;
 
 
 public class Main {

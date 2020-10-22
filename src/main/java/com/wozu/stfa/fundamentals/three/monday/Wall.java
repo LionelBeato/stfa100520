@@ -1,4 +1,4 @@
-package com.wozu.stfa.fundamentals;
+package com.wozu.stfa.fundamentals.three.monday;
 
 // this class is a POJO
 // this stands for plain old java object
