@@ -1,6 +1,7 @@
-package com.wozu.stfa.fundamentals.three.thursday.calculator;
+package com.wozu.stfa.three.thursday.calculator;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
@@ -40,6 +41,7 @@ class CalculatorTest {
 
 
     @Test
+    @DisplayName("divide x with y")
     void testDivide(){
         Mockito.when(calculator.divide(9, 3))
                 .thenReturn(3);

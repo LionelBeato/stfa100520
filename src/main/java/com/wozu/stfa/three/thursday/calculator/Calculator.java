@@ -1,4 +1,4 @@
-package com.wozu.stfa.fundamentals.three.thursday.calculator;
+package com.wozu.stfa.three.thursday.calculator;
 
 public class Calculator<T>  {
 
