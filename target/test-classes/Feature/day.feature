@@ -1,3 +1,6 @@
+# This file describes your test scenarios per feature
+# It uses Gherkin for its writing standard
+
 Feature: Is it Friday yet?
   Everybody wants to know when it's Friday
 
