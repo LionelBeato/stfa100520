@@ -1,10 +1,9 @@
 package com.wozu.stfa.four.tuesday.features;
 
-import io.cucumber.java8.En;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class BirdSteps implements En{
+public class BirdSteps {
 
     Boolean isMorning;
     String expected;
