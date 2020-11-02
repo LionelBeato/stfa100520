@@ -1,4 +1,4 @@
-package com.wozu.stfa.fundamentals.three.tuesday;
+package com.wozu.stfa.fundamentals.two;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

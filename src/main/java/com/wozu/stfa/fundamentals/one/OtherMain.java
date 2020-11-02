@@ -1,4 +1,4 @@
-package com.wozu.stfa.fundamentals.three.monday;
+package com.wozu.stfa.fundamentals.one;
 
 import java.util.Arrays;
 

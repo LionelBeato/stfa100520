@@ -1,4 +1,4 @@
-package com.wozu.stfa.fundamentals.three.tuesday;
+package com.wozu.stfa.fundamentals.two;
 
 /* today we'll cover control flow
  * including if statements, loops, switch, etc

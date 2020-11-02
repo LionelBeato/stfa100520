@@ -1,4 +1,4 @@
-package com.wozu.stfa.fundamentals.three.wednesday;
+package com.wozu.stfa.fundamentals.three;
 
 public class Scratch {
 
