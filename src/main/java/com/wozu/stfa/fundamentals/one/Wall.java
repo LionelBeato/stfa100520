@@ -15,6 +15,10 @@ public class Wall {
         amountOfWalls++;
     }
 
+    public Wall() {
+
+    }
+
     public String getPaintColor(){
         return paintColor;
     }
