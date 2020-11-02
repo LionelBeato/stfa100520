@@ -1,4 +1,4 @@
-package com.wozu.stfa.four.tuesday;
+package com.wozu.stfa.day17;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;

@@ -1,5 +1,6 @@
-package com.wozu.stfa.fundamentals.two;
+package com.wozu.stfa.fundamentals;
 
+import com.wozu.stfa.fundamentals.two.ControlFlow;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

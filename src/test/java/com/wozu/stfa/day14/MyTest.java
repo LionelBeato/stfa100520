@@ -1,4 +1,4 @@
-package com.wozu.stfa.three.thursday;
+package com.wozu.stfa.day14;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

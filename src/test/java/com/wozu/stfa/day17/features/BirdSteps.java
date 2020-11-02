@@ -1,4 +1,4 @@
-package com.wozu.stfa.four.tuesday.features;
+package com.wozu.stfa.day17.features;
 
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

@@ -1,4 +1,4 @@
-package com.wozu.stfa.four.tuesday.features;
+package com.wozu.stfa.day17.features;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
