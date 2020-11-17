@@ -1,8 +1,77 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="suite1">
-    <test name="test1">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/home/leo/Projects/Java/stfa100520">
+
+        <parameter name = "test" value="lol"/>
+
         <classes>
-            <class name="com.wozu.stfa.day24.RegExTest"></class>
+            <class name="com.wozu.stfa.calculator.CalculatorTest">
+                <methods>
+                    <include name="add"/>
+                    <include name="testDivide"/>
+                </methods>
+            </class>
+            <class name="com.wozu.stfa.day11.CustomListTest">
+                <methods>
+                    <include name="givenEmptyList_whenIsEmpty_thenTrueIsReturned"/>
+                    <include name="givenNonEmptyList_whenIsEmpty_thenFalseIsReturned"/>
+                    <include name="givenListWithAnElement_whenSize_theOneIsReturned"/>
+                    <include name="givenListWithAnElement_whenGet_thenThatElementIsReturned"/>
+                    <include name="givenListWithAnElement_whenAnotherIsAdded_thenGetReturnsBoth"/>
+                </methods>
+            </class>
+            <class name="com.wozu.stfa.day12.TDDExampleTest">
+                <methods>
+                    <include name="testCount"/>
+                </methods>
+            </class>
+            <class name="com.wozu.stfa.day14.MockTest">
+                <methods>
+                    <include name="shouldDoSomething"/>
+                </methods>
+            </class>
+            <class name="com.wozu.stfa.day14.MyTest">
+                <methods>
+                    <include name="testList"/>
+                </methods>
+            </class>
+            <class name="com.wozu.stfa.day20.FunctionalTest">
+                <methods>
+                    <include name="testFunc"/>
+                </methods>
+            </class>
+            <class name="com.wozu.stfa.day20.MyFuncTest">
+                <methods>
+                    <include name="test"/>
+                    <include name="listTest"/>
+                </methods>
+            </class>
+            <class name="com.wozu.stfa.day21.SelTest">
+                <methods>
+                    <include name="test"/>
+                    <include name="testElement"/>
+                    <include name="testForward"/>
+                    <include name="testAllAnchors"/>
+                    <include name="testPrintAllAnchors"/>
+                    <include name="testHasItemsAnchors"/>
+                    <include name="testAboutUrl"/>
+                    <include name="testSearchBar"/>
+                </methods>
+            </class>
+            <class name="com.wozu.stfa.day23.NGTest">
+                <methods>
+                    <include name="test"/>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="com.wozu.stfa.fundamentals.ControlFlowTest">
+                <methods>
+                    <include name="myMethodTest"/>
+                    <include name="switchMethodTest"/>
+                    <include name="forMethodTest"/>
+                </methods>
+            </class>
         </classes>
     </test>
 
