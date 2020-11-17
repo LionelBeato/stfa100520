@@ -1,0 +1,66 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-05T17:00:15.008Z",
+        "line": 3,
+        "name": "Searching for Paul Hollywood",
+        "description": "",
+        "id": "searching-on-google;searching-for-paul-hollywood",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5897357978,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "\"Paul Hollywood\" is in the searchbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Paul Hollywood\"",
+                  "offset": 0
+                }
+              ],
+              "location": "com.wozu.stfa.day24.SearchTest.searchingFor(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1171180593,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I press the search button",
+            "match": {
+              "location": "com.wozu.stfa.day24.SearchTest.i_press_the_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14468667,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "send me to the the search results page",
+            "match": {
+              "location": "com.wozu.stfa.day24.SearchTest.send_me_to_the_the_search_results_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Searching on Google",
+    "description": "",
+    "id": "searching-on-google",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/day24/other.feature",
+    "tags": []
+  }
+]
